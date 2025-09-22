@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MUHAMMAD AHMED</title>
+    <link rel="icon" type="image/png" href="assets/images/png2.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootstrap-fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <i class="fa-regular fa-font-case"> <a class="navbar-brand fw-bold" href="#home"> MUHAMMAD AHMED</a></i> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="container">
+            <img src="assets/images/profileimg.jpg" class="profile-img mb-4"
+                alt="Profile Picture">
+               
+            <h1 class="display-4 fw-bold mb-3">Hi, I'm  MUHAMMAD AHMED</h1>
+            <p class="lead mb-4">A passionate GAME developer specializing in creating beautiful and functional user
+                experiences.</p>
+                <div>
+            <a href="#projects" class="btn btn-custom-solid  px-3 btn-lg m-3 rounded-pill">View Projects</a>
+
+            <a href="#contact" class="btn btn btn-dark btn-custom-outline  btn-lg px-3 rounded-pill">Get in Touch</a>
+        </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding bg-white">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">About Me</h2>
+                    <p class="lead mb-4">
+                       As a game developer specializing in multiplayer and Unity, my summary focuses on my expertise in creating engaging, connected experiences within the Unity engine. I design and implement the core architecture for multiplayer games, handling everything from matchmaking and state synchronization to optimizing performance for a seamless online experience.
+                    <p class="mb-4">
+                       My technical skills include robust proficiency in C# and the Unity engine, with a proven track record of solving complex challenges like latency management and network prediction to ensure responsive gameplay. I thrive in collaborative environments, working with teams to debug and refine systems for polished, stable, and scalable games.
+                    </p>
+                    <a href="assets/images/Muhammad Ahmed Farooq.pdf" class="btn btn btn-dark btn-custom-outline btn-lg px-4 me-2 rounded-pill" download>
+                        <i class="bi bi-download me-2"></i>Resume
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-center  display-3mb-4">Skills & Expertise</h2>
+                    <div class="row g-3 text-center">
+                        <div class="col-6">
+                            <div class="card skill-card h-100 shadow-sm p-3">
+                                <div class="card-body">
+                                    <i class="bi bi-unity"></i>
+                                    <p class="mb-0 mt-2">Unity Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card skill-card h-100 shadow-sm p-3">
+                                <div class="card-body">
+                                    <i class="bi bi-joystick skill-icon"></i>
+                                    <p class="mb-0 mt-2">Game Development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card skill-card h-100 shadow-sm p-3">
+                                <div class="card-body">
+                                  <i class="bi bi-code"></i>
+                                    <p class="mb-0 mt-2">C#</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card skill-card h-100 shadow-sm p-3">
+                                <div class="card-body">
+                                    <i class="bi bi-pencil-square skill-icon"></i>
+                                    <p class="mb-0 mt-2">UI/UX Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section (Main Content) -->
+    <section id="projects" class="section-padding hero-section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="display-5 fw-bold mb-3">My Projects</h2>
+                <p class="lead text-muted">A showcase of some of my recent work.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <!-- <div class="text-center mb-5">
+                <button class="btn btn-custom-solid rounded-pill me-2" id="show-web-btn">Web Projects</button>
+                <button class="btn btn btn-dark btn-custom-solid1 rounded-pill" id="show-game-btn">Game
+                    Projects</button>
+            </div> -->
+
+            <!-- Web Projects Section -->
+            <div id="web-projects" class="web-projects">
+                <!-- <h3 class="fw-bold mb-4">Web Projects</h3> -->
+                <div class="row g-4 mb-5">
+                    <!-- Project 1 -->
+                    <!-- <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="https://placehold.co/600x400/d4d4ce/343a40?text=Project+1" class="card-img-top"
+                                alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Project One</h5>
+                                <p class="card-text text-muted">A brief description of a project. Explain the
+                                    technologies used and its purpose.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="1">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    Project 2 -->
+                    <!-- <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="https://placehold.co/600x400/d4d4ce/343a40?text=Project+2" class="card-img-top"
+                                alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Project Two</h5>
+                                <p class="card-text text-muted">A brief description of another project. Highlight key
+                                    features and functionality.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="2">View Demo</a>
+                            </div>
+                        </div>
+                    </div> --> 
+                    <!-- Project 3 -->
+                    <!-- <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="https://placehold.co/600x400/d4d4ce/343a40?text=Project+3" class="card-img-top"
+                                alt="Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Project Three</h5>
+                                <p class="card-text text-muted">A third project with a focus on UI/UX design and
+                                    responsive layout.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="3">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Game Projects Section -->
+            <div id="game-projects" class="game-projects">
+                <h3 class="fw-bold mb-4">Game Projects</h3>
+                <div class="row g-4">
+                    <!-- Project 1 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="assets/images/project 1.1.png"
+                                class="card-img-top" alt="Game Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Clean Multiplayer Pro Asset</h5>
+                                <p class="card-text text-muted">As the lead developer for Clean Multiplayer Pro, I was responsible for architecting and implementing a robust, modular networking solution for Unity.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="1">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="assets/images/project2.2.webp"
+                                class="card-img-top" alt="Game Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold"> G.I. Joe Wrath of Cobra</h5>
+                                <p class="card-text text-muted">My role on the development team was to integrate the multiplayer module for the G.I. Joe beat 'em up game, allowing for both local and online cooperative play.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="2">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- Project 3 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="assets/images/project3.png"
+                                class="card-img-top" alt="Meta Royale">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Meta Royale: Web3 Brawler with Wallet Integration</h5>
+                                <p class="card-text text-muted">A simple but engaging logic puzzle game with multiple
+                                    levels. The game was designed using a grid-based system in JavaScript. My focus was
+                                    on developing the level-loading system and creating an elegant, intuitive UI for a
+                                    smooth gameplay experience.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="3">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img height="50%" src="assets/images/project8.png"
+                                class="card-img-top" alt="Game Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">N2Y L³ Skills – Interactive Skill-Building for Diverse Learners</h5>
+                                <p class="card-text text-muted">My role on the L³ Skills development team was to design and implement interactive game mechanics that effectively meet educational standards and engage students</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="4">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+ <!-- Project 5 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img  height="50%"src="assets/images/project4.4.png"
+                                class="card-img-top" alt="Game Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Skewer Rush – Mobile Game (Android)</h5>
+                                <p class="card-text text-muted">Skewer Rush is a fast-paced, arcade-style mobile game designed to be highly engaging and addictive. The gameplay is simple: players swipe to launch a skewer at moving targets to score points. </p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="5">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+ <!-- Project 6 (Game Project) -->
+
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img  height="50%"src="assets/images/project5.1.png"
+                                class="card-img-top" alt="Game Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Solaverse – Play-to-Earn (P2E) Blockchain Game</h5>
+                                <p class="card-text text-muted">Solaverse is a Play-to-Earn (P2E) game that merges traditional gaming with blockchain technology to create a rewarding experience. </p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="6">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+ <!-- Project 7 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img src="assets/images/project6 (1).jpg"
+                                class="card-img-top" alt="Game Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">WAR TRIBES</h5>
+                                <p class="card-text text-muted">"War Tribes" and similar games are typically strategy-focused titles where players build and manage their own kingdoms, tribes, or villages. The core gameplay involves constructing and upgrading a variety of buildings, recruiting different types of military units, and gathering resources. </p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="7">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 8 (Game Project) -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-sm project-card">
+                            <img height="50%" src="assets/images/project7.png"
+                                class="card-img-top" alt="X-Flight Simulator">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">X-Flight Simulator – Realistic Aviation Experience</h5>
+                                <p class="card-text text-muted">A high-fidelity flight simulation game built for aviation enthusiasts. Players can pilot a range of aircraft—from small propeller planes to commercial jets—across real-world terrains with dynamic weather.</p>
+                                <a href="#" class="btn btn-custom-solid rounded-pill view-demo-btn"
+                                    data-project-id="8">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Project Details Section (Initially Hidden) -->
+<section id="project-details" class="section-padding bg-light d-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <a href="#" class="btn btn-secondary mb-3" id="back-to-projects">
+                    <i class="bi bi-arrow-left me-2"></i>Back to Projects
+                </a>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <div class="card shadow-sm border-0">
+
+                    <!-- Carousel -->
+                    <div id="project-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators"></div>
+                        <div class="carousel-inner"></div>
+
+                        <!-- Carousel controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#project-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Card body with content -->
+                    <div class="card-body">
+                        <h2 class="card-title display-5 fw-bold" id="project-detail-title"></h2>
+
+                        <!-- Tags -->
+                        <div class="mb-3" id="project-tags">
+                            <!-- Tags like: <span class="badge bg-secondary me-1">Unity</span> -->
+                        </div>
+
+                        <!-- Description -->
+                        <div class="card-text mb-4" id="project-detail-description">
+                            <!-- Filled dynamically -->
+                        </div>
+
+                        <!-- Play Game / View Demo link -->
+                        <a href="#" id="project-detail-link" class="btn btn-primary" target="_blank" rel="noopener">
+                            <i class="bi bi-controller me-2"></i>Play Game
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Contact Me</h2>
+                <p class="lead text-muted">Ready to start a project? I'd love to hear from you!</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+             <form action="https://api.web3forms.com/submit" method="POST">
+                 <input type="hidden" name="access_key" value="c19fa7ad-527e-4a73-87ab-f8f7df99cd9f">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control rounded-pill" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" name="email" class="form-control rounded-pill" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control rounded-4" name="message" id="message" rows="5" required></textarea>
+                        </div>
+                        <!-- Custom Confirmation / Success Page -->
+    <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.htmzzl"> 
+                        <div class="d-grid gap-2">
+                            <button  type="submit" class="btn btn-dark btn-lg rounded-pill">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2024 My Portfolio. All rights reserved by MUHAMMAD AHMED</p>
+            <div class="social-icons">
+                <a href="#" class="text-light me-3"><i class="bi bi-linkedin fs-4"></i></a>
+                <a href="#" class="text-light me-3"><i class="bi bi-github fs-4"></i></a>
+                <a href="#" class="text-light"><i class="bi bi-twitter fs-4"></i></a>
+            </div>
+        </div>
+    </footer> <!-- jQuery and Bootstrap JS Bundle -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        xintegrity="sha384-YvpcrYf0tY3lHB60NNWjsK6T9zT6Q0tY0j4oEETaWfJg7gQ9N0E7mI2tE3xP1C4J4xQGg"
+        crossorigin="anonymous"></script>
+    <script src="index.js">
+        
+    </script>
+</body>
+
+</html>

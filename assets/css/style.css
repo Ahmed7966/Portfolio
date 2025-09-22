@@ -1,0 +1,137 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik+Distressed&display=swap');
+
+
+
+  .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+:root {
+  /* font-family:  */
+  --bs-font-sans-serif:"Bebas Neue", sans-serif;
+  --button-bg: #D4D4CE;
+  --button-text: #343a40;
+  --hero-gradient: linear-gradient(120deg, #808486 50%, #e9ecef 50%);
+
+}
+
+body {
+  font-family: var(--bs-font-sans-serif);
+  background-color: #f6f6f6;
+  color: #343a40;
+}
+
+.hero-section {
+  background: var(--hero-gradient);
+
+  color: #343a40;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.section-padding {
+  padding: 6rem 0;
+}
+
+/* Style for the project cards with shadow and transition */
+.project-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+}
+
+/* Hover effect for the project cards */
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom Button Styles */
+.btn-custom-solid {
+  background-color: var(--button-bg);
+  border-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+.btn-custom-solid1:hover {
+  background-color: #c0c0b8;
+  border-color: #c0c0b8;
+  color: #212529;
+}
+
+.btn-custom-solid:hover {
+  background-color: #c0c0b8;
+  border-color: #c0c0b8;
+  color: #212529;
+}
+
+.btn-custom-outline {
+  color: var(--button-bg);
+  border-color: var(--button-bg);
+}
+
+.btn-custom-outline:hover {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+ .project-details-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#project-detail-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #1a1a1a;
+}
+
+.tags-container {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-badge {
+    background: #404040;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: transform 0.2s ease;
+    cursor: default;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tag-badge:hover {
+    transform: scale(1.05);
+}
+
+#project-detail-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
