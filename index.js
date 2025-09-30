@@ -70,6 +70,7 @@ $(document).ready(function () {
                 { type: "image", url: "assets/images/project5.6.png" },
                 { type: "image", url: "assets/images/project5.7.png" },
                 { type: "image", url: "assets/images/project5.8.png" },
+                { type: "video", url: "assets/images/project 5v.mp4" },
             ],
             link:"https://playtoearn.com/blockchaingame/the-solaverse",
             tags: ["Blockchain", "Play-to-Earn", "NFTs", "Crypto", "Exploration", "Multiplayer", "Strategy", "Economy"]
