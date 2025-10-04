@@ -4,7 +4,7 @@ $(document).ready(function () {
     const projects = {
         1: {
             title: "Clean Multiplayer Pro Asset",
-            description: "As the lead developer for Clean Multiplayer Pro, I was responsible for architecting and implementing a robust, modular networking solution for Unity. My work focused on designing the core framework to ensure high performance, scalability, and seamless integration, which allowed developers to easily add multiplayer functionality without needing to write complex networking code. In addition to core development, I created comprehensive documentation and provided continuous technical support to clients, helping them successfully integrate the asset into a wide range of game projects.",
+            description: "<b>Clean Multiplayer Pro Asset</b> is a Unity asset designed to provide developers with a ready-to-use foundation for building robust multiplayer games. It includes networking, matchmaking, player communication, and synced gameplay features built on Photon Fusion.<br><br>My contributions included:<ul><li>Implementing matchmaking and session management using Photon Fusion</li><li>Building player character synchronization across clients</li><li>Integrating real-time chat and voice communication</li><li>Developing a voting system for in-game decisions</li><li>Designing and syncing an inventory system for multiplayer consistency</li></ul>",
             media: [
                 { type: "image", url: "assets/images/project 1.1.png" },
                 { type: "image", url: "assets/images/project1.2.png" },
@@ -16,7 +16,7 @@ $(document).ready(function () {
         },
         2: {
             title: "G.I. Joe Wrath of Cobra",
-            description: "My role on the development team was to integrate the multiplayer module for the G.I. Joe beat 'em up game, allowing for both local and online cooperative play. I was responsible for designing the core networked session logic, which included creating the systems for matchmaking and state synchronization to ensure all players were on the same page. A key focus was managing latency and using techniques like rollback or prediction to keep the combat responsive and fluid, even during online play. I also debugged and optimized complex multiplayer synchronization issues, ensuring that elements like hit detection and special moves worked correctly across all player clients. Finally, I helped determine the game's online infrastructure, whether a scalable server or a peer-to-peer setup, to meet the specific requirements of each platform.",
+            description: "<b>G.I. Joe Wrath of Cobra</b> is a fast-paced beat 'em up game that supports both local and online cooperative play. Multiplayer functionality was built on top of the existing single-player game to provide smooth, synchronized gameplay across platforms.<br><br>My contributions included:<ul><li>Integrating Photon Fusion to add a multiplayer module into the pre-built game</li><li>Implementing input controls using the Rewired input system</li><li>Handling host migration for uninterrupted sessions</li><li>Applying client-side prediction techniques for responsive combat</li><li>Creating and managing a network object pool for efficiency</li><li>Supporting both host-client and dedicated client modes</li></ul>",
             media: [
                 { type: "image", url: "assets/images/project2.2.webp" },
                 { type: "image", url: "assets/images/project2.4.jpg" },
@@ -27,7 +27,7 @@ $(document).ready(function () {
         },
         3: {
             title: "Meta Royale – Web3 Brawler with Wallet Integration",
-            description: "My role on the Meta Royale development team was to integrate the game's wallet system, which was crucial for its Web3 functionality. This involved building the systems that allow players to seamlessly connect their cryptocurrency wallets to the game. This integration provides a secure and direct way for players to manage their in-game assets, make purchases, and participate in the game's economy without ever leaving the game interface.",
+            description: "<b>Meta Royale</b> is a Web3-enabled brawler game that allows players to connect cryptocurrency wallets and directly interact with the in-game economy. Players can manage assets, make purchases, and own NFTs within the game interface.<br><br>My contributions included:<ul><li>Converting the existing multiplayer system from Photon PUN to Photon Fusion for improved performance and scalability</li><li>Implementing character controls and responsive gameplay mechanics</li><li>Integrating character animations and syncing them across multiplayer sessions</li></ul>",
             media: [
                 { type: "video", url: "assets/images/project3.v.mp4" }
             ],
@@ -35,7 +35,7 @@ $(document).ready(function () {
         },
         4: {
             title: "N2Y L³ Skills – Interactive Skill-Building for Diverse Learners",
-            description: "My role on the L³ Skills development team was to design and implement interactive game mechanics that effectively meet educational standards and engage students. I collaborated closely with educators to understand specific learning objectives, which I then translated into engaging game scenarios aimed at promoting skill mastery. A key part of my job also involved integrating user feedback to continuously improve the overall user experience of the platform.",
+            description: "<b>L³ Skills</b> is a collection of 100+ WebGL-based educational mini-games designed to engage diverse learners and support skill development through interactive gameplay. Each game offers unique mechanics aligned with specific learning objectives.<br><br>My contributions included:<ul><li>Developing small reusable plugins, such as a sprite glow plugin and an accessibility plugin, to standardize features across all games</li><li>Designing a single flexible game architecture to handle game flow consistently across multiple titles</li><li>Refactoring the original monolithic project (100+ games in one project) by separating games into manageable modules for improved scalability and maintainability</li><li>Enhancing accessibility and usability features to better support diverse learners</li></ul>",
             media: [
                 { type: "image", url: "assets/images/project8.png" },
 
@@ -45,7 +45,7 @@ $(document).ready(function () {
         },
         5: {
             title: "Skewer Rush – Mobile Game (Android)",
-            description: "Skewer Rush is a fast-paced, arcade-style mobile game designed to be highly engaging and addictive. The gameplay is simple: players swipe to launch a skewer at moving targets to score points. While the controls are easy to learn, the game's challenge increases with dynamic obstacles that appear in later levels. With vibrant graphics, smooth animations, and a lively soundtrack, the game provides an immersive experience. A competitive scoring system encourages replayability and a desire to achieve the highest score. The core development focus was on creating an intuitive interface and responsive mechanics to ensure a seamless and enjoyable experience for all mobile players.",
+            description: "<b>Skewer Rush</b> is a fast-paced, arcade-style mobile game where players swipe to launch skewers at moving targets to score points. With vibrant visuals, smooth animations, and dynamic challenges, the game delivers an engaging and addictive experience.<br><br>My contributions included:<ul><li>Refactoring the overall game codebase by applying clean code principles for maintainability</li><li>Implementing a bonus system to enhance gameplay variety and reward players</li><li>Integrating ads into the existing game flow for monetization</li><li>Adding a character selection feature to improve player engagement</li><li>Added and design new Levels ,power ups and daily rewards to existing gameplay.</li></ul>",
             media: [
                 { type: "image", url: "assets/images/project4.2.png" },
                 { type: "image", url: "assets/images/project4.3.png" },
@@ -60,7 +60,7 @@ $(document).ready(function () {
         },
         6: {
             title: "Solaverse – Play-to-Earn (P2E) Blockchain Game",
-            description: "Solaverse is a Play-to-Earn (P2E) game that merges traditional gaming with blockchain technology to create a rewarding experience. It's set in a vast, explorable universe where players can gather resources, build, and trade. The game's economy is powered by its native cryptocurrency, the Solaverse Token (SVR), and uses smart contracts to ensure secure transactions The game's core features revolve around a player-driven economy and ownership. Players can own and trade in-game items and assets, such as spaceships and land plots, as NFTs (Non-Fungible Tokens). This allows their in-game progress to have tangible, real-world value. The gameplay itself includes open-world exploration, PvE and PvP combat, mining, crafting, and the ability to form guilds. It also gives players a voice in the game's evolution through a decentralized governance model. The game is designed to be accessible across multiple platforms and is built to be both fun and rewarding for all types of players.",
+            description: "<b>Solaverse</b> is a Play-to-Earn (P2E) game that blends traditional gameplay with blockchain technology. Players explore a vast universe, mine resources, craft, trade, and engage in PvE and PvP combat. A player-driven economy powered by the <b>Solaverse Token (SVR)</b> and NFT-based ownership of ships, land, and items ensures that in-game progress carries real-world value.<br><br>My contributions focused on the <b>core architecture and systems</b>, including:<ul><li>Building the foundation with Unity’s Grid and Tilemap system</li><li>Creating Scriptable Objects for modular building data</li><li>Managing game flow, backend data persistence, and synchronization</li><li>Developing ship selection systems and UI components</li><li>Designing the overall architecture with a Main Singleton that coordinates key managers such as UI, sound, and data</li></ul>These systems established a scalable, extensible framework that powers both the gameplay and the economy.",
             media: [
                 { type: "image", url: "assets/images/project5.1.png" },
                 { type: "image", url: "assets/images/project5.2.png" },
@@ -77,15 +77,14 @@ $(document).ready(function () {
         },
         7: {
             title: "WAR TRIBES",
-            description: "War Tribes and similar games are typically strategy-focused titles where players build and manage their own kingdoms, tribes, or villages. The core gameplay involves constructing and upgrading a variety of buildings, recruiting different types of military units, and gathering resources. A major component is player-versus-player (PvP) combat, where you can attack and conquer the villages of other players to expand your territory and gain resources. Alliances, often called tribes, are crucial for mutual protection and for coordinating large-scale attacks on enemies. The games often feature a mix of defensive strategies, like building towers to repel invaders, and offensive maneuvers to dominate the map. The ultimate goal is to become the most powerful tribe and conquer the world.",
+            description: "<b>War Tribes</b> is a real-time strategy game focused on base-building, resource management, and PvP combat. Players construct buildings, recruit units, form alliances, and battle against others to expand their territory and dominate the map.<br><br>My contributions included:<ul><li>Designing the overall game architecture based on SOLID principles for maintainability and scalability</li><li>Implementing an event-driven system (signals) to achieve code decoupling</li><li>Managing core gameplay mechanics including a grid-based system built with Unity’s Tilemap</li><li>Creating base classes with common functionality for different building types using abstraction and interfaces</li><li>Handling complex game data with the Repository Pattern</li><li>Integrating Firebase with real-time database and authentication providers (Google, etc.)</li><li>Adding monetization systems including AdMob ads and In-App purchases</li><li>Developing a custom 2D pathfinding algorithm inspired by A* for optimized unit movement</li></ul>",
             media: [
                 { type: "image", url: "assets/images/project6 (1).jpg" },
                 { type: "image", url: "assets/images/project6 (2).jpg" },
                 { type: "image", url: "assets/images/project6 (3).jpg" },
                 { type: "image", url: "assets/images/project6 (4).jpg" },
                 { type: "image", url: "assets/images/project6 (5).jpg" },
-                { type: "video", url: "assets/images/project6v2.mp4" },
-                { type: "video", url: "assets/images/project6 v1.mp4" }
+                { type: "video", url: "assets/images/project6 v3.mp4" }
             ],
             link:"https://play.google.com/store/apps/details?id=com.wartribes.tower.defense",
             tags: ["Strategy", "PvP", "Base Building", "Google Login", "Multiplayer", "Real-Time","Auth/Sign-up","Database"]
