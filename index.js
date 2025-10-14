@@ -144,7 +144,7 @@ $(document).ready(function () {
                                         </div>`;
                 } else if (media.type === 'video') {
                     carouselItemHtml = `<div class="carousel-item">
-                                            <video class="d-block w-100" muted autoplay loop playsinline>
+                                            <video class="d-block w-100" muted autoplay>
                                                 <source src="${media.url}" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
